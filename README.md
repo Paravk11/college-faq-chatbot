@@ -13,4 +13,4 @@ It answers college-related queries from a local CSV knowledge base.
 1. Clone the repo
 2. Install packages: `pip install -r requirements.txt`
 3. Add your Gemini API key inside `app.py`
-4. Run: `streamlit run app.py`
+4. Run: `python -m streamlit run app.py`
