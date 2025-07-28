@@ -3,7 +3,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Gemini API Key
-genai.configure(api_key="AIzaSyAqYKyniCsK0O-SGjhXUB0S-RnmqhKFwdk")
+genai.configure(api_key="Your_API_KEY_HERE")
 
 # Supported model (v1beta compatible)
 model = genai.GenerativeModel("gemini-2.5-pro")
